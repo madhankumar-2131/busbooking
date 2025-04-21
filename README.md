@@ -25,6 +25,7 @@ This project uses GitHub Actions to auto-deploy the latest version of the websit
 
 ### `.github/workflows/deploy.yml`
 
+![file111111111111](https://github.com/user-attachments/assets/3806ffc1-81bf-4e1c-9215-a5883edb174e)
 
 
 ![S31](https://github.com/user-attachments/assets/b61d1dfc-c3f5-4f60-88d0-20d4e2bc8e1e)
