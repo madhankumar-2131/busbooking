@@ -2,6 +2,8 @@
 
 A simple static website that allows users to view available buses and simulate a booking experience. Built using **HTML, CSS, and JavaScript**, deployed to **AWS S3**, and continuously delivered with **GitHub Actions**. The S3 bucket is also created and managed with **Terraform**.
 
+#### ✏️ Format → ✅ Validate → 🔧 Init → 🔍 Plan → 🚀 Apply
+
 ---
 
 ## 🔗 Live Demo
@@ -10,7 +12,7 @@ A simple static website that allows users to view available buses and simulate a
 
 ---
 
-## ⚙️ Tech Stack
+## 📄  Tech Stack
 
 - HTML, CSS, JavaScript
 - AWS S3 (Static Website Hosting)
@@ -19,11 +21,11 @@ A simple static website that allows users to view available buses and simulate a
 
 ---
 
-## 🚀 CI/CD with GitHub Actions
+## 🛠️ Infrastructure with Terraform
 
 This project uses GitHub Actions to auto-deploy the latest version of the website to the S3 bucket whenever changes are pushed to the `main` branch.
 
-### `.github/workflows/deploy.yml`
+###✏️  Terraform folder Structure..
 
 ![file111111111111](https://github.com/user-attachments/assets/3806ffc1-81bf-4e1c-9215-a5883edb174e)
 
@@ -32,10 +34,20 @@ This project uses GitHub Actions to auto-deploy the latest version of the websit
 ![S2](https://github.com/user-attachments/assets/5c95ab4b-a5a8-4ebc-a950-5782e976eb06)
 
 ![s4](https://github.com/user-attachments/assets/f234679e-2661-45d4-954e-a8099cddb896)
-
+--##
+🚀terraform fmt – Formats your .tf files
+--
+🚀terraform validate – Checks for errors in your code
+--
+🚀terraform init – Initializes the project (downloads providers)
+--
+🚀terraform plan – Shows what will be created
+--
+🚀terraform apply -auto-approve – Applies changes without asking "yes/no"
+--##
 
 ![s5](https://github.com/user-attachments/assets/b0a305c9-af1f-4fb4-97d2-9b6e70653d20)
-
+🧹 Clean → ✏️ Format → ✅ Validate → 🔧 Init → 🚀 Apply
 ```yaml
 name: Deploy to AWS S3
 
